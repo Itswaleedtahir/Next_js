@@ -1,15 +1,12 @@
 import React from 'react'
-interface Users {
-  id: number;
-  name: string;
-  email: string;
-}
+import UserTable from './UserTable';
+
 const UsersPage =async  () => {
  
   return (
     <>
     <h1>Users</h1>
-   
+   <UserTable />
     </>
   )
 }
