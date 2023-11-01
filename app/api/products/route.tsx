@@ -1,6 +1,7 @@
 import { NextRequest,NextResponse } from "next/server";
 import schema from "./schema";
 
+//GET Request
 export function GET(request: NextRequest){
     return NextResponse.json([
      {id:1,name:"Milk",price:2.5},
