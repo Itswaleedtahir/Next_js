@@ -8,6 +8,7 @@ export function GET(request: NextRequest){
     ])
  }
 
+//POST Request
  export async function POST(request:NextRequest){
     const body = await request.json()
     const validae = schema.safeParse(body)
